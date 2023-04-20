@@ -1,60 +1,66 @@
 li {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 /* Style buttons */
 .top-btn {
-    background-color: #fff;
-    border: none;
-    color: #000;
-    padding: 12px 16px;
-    font-size: 16px;
-    cursor: pointer;
-    padding-left: 20px;
-    padding-right: 20px;
-    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 5px;
+  background-color: #fff;
+  border: none;
+  color: #000;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
 }
 
 /* Darker background on mouse-over */
 .top-btn:hover {
-    background-color: #4b4bdb;
-    color: #fff;
+  background-color: #4b4bdb;
+  color: #fff;
 }
 
 li .active {
-    background-color: #4b4bdb;
-    color: #fff;
+  background-color: #4b4bdb;
+  color: #fff;
 }
 
-
 .btn-primary {
-    background-color: #4b4bdb;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%;
+  background-color: #4b4bdb;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
 }
 
 .btn-primary:hover {
-    background-color: #4040bb;
+  background-color: #4040bb;
 }
 
 .card {
-    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
-    border: none;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
+  border: none;
 }
 
 .full {
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-
+select{
+  height: 40px;
+  max-width:100% !important;
+}
 canvas {
-    width: 300px !important;
-    height: 300px !important;
+  width: 100% !important;
+  height: 100% !important;
+  padding: 10px;
+  -webkit-box-shadow: 5px 5px 15px 3px rgba(0, 0, 0, 0.37);
+  box-shadow: 5px 5px 15px 3px rgba(0, 0, 0, 0.37);
+  border-radius: 20px;
 }

@@ -27,7 +27,7 @@
     <li class="nav-item" role="presentation">
         <button class="top-btn" id="pills-whatsapp-tab" data-bs-toggle="pill" onclick="clearQR()"
                 data-bs-target="#pills-whatsapp" type="button" role="tab" aria-controls="pills-contact"
-                aria-selected="false"><i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp</button>
+                aria-selected="false"><i class="fa-brands fa-whatsapp"></i> Whatsapp</button>
     </li>
     <li class="nav-item" role="presentation">
         <button class="top-btn" id="pills-facetime-tab" data-bs-toggle="pill" onclick="clearQR()"
