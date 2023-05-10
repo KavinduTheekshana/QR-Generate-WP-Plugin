@@ -25,7 +25,15 @@
 
         var qrdoe =document.getElementById("qrcode");
         qrdoe.innerHTML = "";
+    }
 
+    function hashupdates() {
+        var tmp_canvas = document.getElementsByTagName('canvas');
+
+        var image = tmp_canvas[0].toDataURL();
+
+        console.log(image);
+        $('#hash_qr').val( image);
     }
     
     

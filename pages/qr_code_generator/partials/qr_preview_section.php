@@ -9,7 +9,7 @@
         <input type="hidden" name="qr_type" id="qr_type">
         <div class="row">
                              <button class="btn btn-dark mt-4 pb-3 pt-3"  type="button" onclick="getDownload()">Download</button>
-                             <button class="btn btn-danger mt-2 pt-3 pb-3" name="submit"  type="submit">Save QR</button>
+                             <button class="btn btn-danger mt-2 pt-3 pb-3" name="submit"  type="submit" onclick="hashupdates()">Save QR</button>
                         </div>
 
         <!-- <button class="btn btn-danger mt-4 pt-3 pb-3" name="submit"  type="submit">Save QR</button>
